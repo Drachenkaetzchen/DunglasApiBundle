@@ -148,7 +148,7 @@ services:
         calls:
             -       method:    "initDenormalizationContext"
                     arguments:
-                        -      { groups: [ "offer" ] }
+                        -      [ { groups: [ "offer" ] } }
         tags:       [ { name: "api.resource" } ]
 ```
 
